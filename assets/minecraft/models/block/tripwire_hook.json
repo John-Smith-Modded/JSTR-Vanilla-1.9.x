@@ -1,5 +1,48 @@
 {
-    "__comment": "JimStoneCraft - 2015",
+    "__comment": "JimStoneCraft - 2016",
+    "ambientocclusion": false,
+    "display": {
+        "gui": {
+            "rotation": [ 30, 225, 0 ],
+            "translation": [ 4, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 2, -2 ],
+            "scale":[ 0.5, 0.5, 0.5 ]
+        },
+        "head": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 14, -1],
+            "scale":[ 1, 1, 1]
+        },
+        "fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, -5 ],
+            "scale":[ 0.85, 0.85, 0.85 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ -2, 3, 2 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ -2, 3, 2 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 25, 0, 0 ],
+            "translation": [ 0, 4.2, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 25, 0, 0 ],
+            "translation": [ 0, 4.2, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    },
     "textures": {
         "particle": "blocks/trip_wire_wood",
         "hook": "blocks/trip_wire_hook",
@@ -63,8 +106,8 @@
             "faces": {
                 "down":  { "uv": [  6, 14, 10, 16 ], "texture": "#wood" },
                 "up":    { "uv": [  6,  0, 10,  2 ], "texture": "#wood" },
-                "north": { "uv": [  6,  7, 10, 15 ], "texture": "#wood", "cullface": "north" },
-                "south": { "uv": [  6,  7, 10, 15 ], "texture": "#wood" },
+                "north": { "uv": [  6,  7, 10, 15 ], "texture": "#wood" },
+                "south": { "uv": [  6,  7, 10, 15 ], "texture": "#wood", "cullface": "south" },
                 "west":  { "uv": [  0,  7,  2, 15 ], "texture": "#wood" },
                 "east":  { "uv": [ 14,  7, 16, 15 ], "texture": "#wood" }
             }

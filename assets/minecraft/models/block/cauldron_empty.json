@@ -1,6 +1,7 @@
 {
-    "__comment": "JimStoneCraft - 2015",
-    "__comment": "When facing North for direction comments",
+    "__comment": "JimStoneCraft - 2016",
+    "__comment": "When facing North for direction",
+    "parent": "block/block",
     "ambientocclusion": false,
     "textures": {
         "particle": "blocks/cauldron_side",
@@ -25,7 +26,7 @@
         },
         {   "__comment": "Bottom",
             "from": [ 2, 2, 2 ],
-            "to": [ 14, 2, 14 ],
+            "to": [ 14, 3, 14 ],
             "faces": {
                 "down":  { "uv": [ 14, 14,  2,  2 ], "texture": "#bottom" },
                 "up":    { "uv": [  2,  2, 14, 14 ], "texture": "#inside", "cullface": "up" },
