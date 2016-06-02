@@ -1,6 +1,6 @@
 {
     "__comment": "JimStoneCraft - 2015",
-    "parent": "block/fence_post",
+    "parent": "block/fence_custom_post",
     "textures": {
         "texture": "blocks/fence_nether_brick",
         "top": "blocks/fence_nether_brick_top",
