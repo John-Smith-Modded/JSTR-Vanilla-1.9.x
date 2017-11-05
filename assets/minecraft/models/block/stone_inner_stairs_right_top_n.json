@@ -3,7 +3,7 @@
     "parent": "block/inner_stairs",
     "textures": {
         "bottom": "blocks/cobblestone",
-        "top": "blocks/stone_stairs_top_right_top",
+        "top": "blocks/stone_stairs_top_right_bottom",
         "side": "blocks/stone_stairs_top_side"
     }
 }
